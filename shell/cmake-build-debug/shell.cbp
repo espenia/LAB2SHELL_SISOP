@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="shell"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/esteban/Documents/LAB1/shell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/esteban/Documents/LAB1/shell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/esteban/Documents/LAB1/shell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shell">
+				<Option output="/home/esteban/Documents/LAB1/shell/cmake-build-debug/shell" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/esteban/Documents/LAB1/shell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 shell"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shell/fast">
+				<Option output="/home/esteban/Documents/LAB1/shell/cmake-build-debug/shell" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/esteban/Documents/LAB1/shell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 shell/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/esteban/Documents/LAB1/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/builtin.c">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/builtin.h">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/createcmd.c">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/createcmd.h">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/defs.h">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/exec.c">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/exec.h">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/freecmd.c">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/freecmd.h">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/main.c">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/parsing.c">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/parsing.h">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/printstatus.c">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/printstatus.h">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/readline.c">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/readline.h">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/runcmd.c">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/runcmd.h">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/sh.c">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/types.h">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/utils.c">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/utils.h">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="/home/esteban/Documents/LAB1/shell/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

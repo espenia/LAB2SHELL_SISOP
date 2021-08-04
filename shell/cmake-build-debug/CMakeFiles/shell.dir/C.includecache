@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/esteban/Documents/LAB1/shell/builtin.c
+builtin.h
+/home/esteban/Documents/LAB1/shell/builtin.h
+utils.h
+/home/esteban/Documents/LAB1/shell/utils.h
+
+/home/esteban/Documents/LAB1/shell/builtin.h
+defs.h
+/home/esteban/Documents/LAB1/shell/defs.h
+
+/home/esteban/Documents/LAB1/shell/defs.h
+stdio.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+fcntl.h
+-
+unistd.h
+-
+signal.h
+-
+sys/wait.h
+-
+sys/types.h
+-
+
+/home/esteban/Documents/LAB1/shell/utils.h
+defs.h
+/home/esteban/Documents/LAB1/shell/defs.h
+
